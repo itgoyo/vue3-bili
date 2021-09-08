@@ -10,3 +10,11 @@ export function getData() {
 
   );
 }
+
+export function SendMsgToWeChat() {
+
+  return request.get(
+    "https://sctapi.ftqq.com/SCT54044Tqx9tyefQsHlbrI2crqzQ1g2g.send?title=👿直播断线提醒👿&desp=Bilibili直播已经断开"
+  )
+
+}
